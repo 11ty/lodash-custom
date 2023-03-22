@@ -4,7 +4,8 @@
   "description": "A custom, focused build of lodash exclusively for use internally in Eleventy.",
   "main": "lodash.custom.js",
   "scripts": {
-    "build": "npx lodash exports=node include=get,set,chunk && rm lodash.custom.min.js"
+    "build": "npx lodash exports=node include=get,set,chunk && rm lodash.custom.min.js",
+    "test": "npx ava"
   },
   "publishConfig": {
     "access": "public"
