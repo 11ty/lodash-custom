@@ -6,9 +6,28 @@
   "scripts": {
     "build": "npx lodash exports=node include=get,set,chunk && rm lodash.custom.min.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/11ty"
+  },
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/11ty/lodash-custom.git"
+  },
+  "bugs": "https://github.com/11ty/lodash-custom/issues",
+  "homepage": "https://github.com/11ty/lodash-custom/",
   "devDependencies": {
     "ava": "^5.2.0",
     "lodash-cli": "^4.17.5"
