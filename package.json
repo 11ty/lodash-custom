@@ -1,0 +1,19 @@
+{
+  "name": "@11ty/lodash-custom",
+  "version": "4.17.21",
+  "description": "A custom, focused build of lodash exclusively for use internally in Eleventy.",
+  "main": "lodash.custom.js",
+  "scripts": {
+    "build": "npx lodash exports=node include=get,set,chunk && rm lodash.custom.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^5.2.0",
+    "lodash-cli": "^4.17.5"
+  },
+  "overrides": {
+    "lodash": "4.17.21"
+  }
+}
